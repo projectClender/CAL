@@ -1,0 +1,71 @@
+header{
+    background-color: rgba(204, 255 ,255, 0.9);
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+h1{
+    align-content: center;
+    padding-left: 50px;
+}
+
+main {
+margin-top: 60px;
+margin-left: 120px;
+ display: flex;
+  flex-wrap: wrap;
+  padding: 70px 20px 100px 20px;
+  min-height: 300px;
+  display: inline-block;
+}
+
+#row_day td{
+    border-style: hidden;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.time{
+    border-style: hidden;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.each_button{
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-style: hidden;
+      border-radius: 2px;
+}
+.each_button:hover {
+    border: 1px solid aqua;
+    background-color: azure;
+    width: 150px;
+    height: 50px;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.25);
+    //border-style: hidden;
+      border-radius: 2px;
+    
+}
+
+table tr {
+    
+    border: 1px solid black;
+}
+
+
+/*.day {
+    
+   
+    border-style: hidden;
+}
+*/
