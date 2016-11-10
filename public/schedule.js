@@ -1,4 +1,4 @@
-function makeVisble(){
+function makeVisble(event){
   console.log(event.target);
  var backdrop=document.getElementById('modal-backdrop');
    backdrop.setAttribute("class","visble");
